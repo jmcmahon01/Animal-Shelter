@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+    background-color: #7DAA92;
+}
+
+.animalHead {
+    font-family: 'Tilt Neon';
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%);
+}
+
+.animalImage {  
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+.animalDesc {
+    position:relative;
+    font-family: 'roboto mono';
+    width: 400px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 100px;
+}
